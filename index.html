@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+                <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li></li>
+            </ul>
+
+            <a href=""><img class="container__imagem" src="img/logo 1.svg" alt="logotipo da biblioteca start"></a>
+        </div>
+        <div class="container">
+            <a href="#"><img class="container__imagem" src="img/Favoritos.svg" alt="meus Favoritos"></a>
+            <a href="#"><img class="container__imagem" src="img/Emprestimos.svg" alt="meus empréstimos"></a>
+            <a href="#"><img class="container__imagem" src="img/Usuario.svg" alt="meu perfil"></a>
+        </div>
+    </header>
+    <section class="gridimg">
+        <div class="div-todasimagens">
+            <div class="div-imagem">
+                <img class="Imagem" src="img/cachorros-pequenos- png" alt="">
+                <h1 class="titulo">Imagem 2</h1>
+            </div>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/dog.png" alt="">
+                <h1 class="titulo">Imagem 3</h1>
+            </div>
+            <span>
+            </span>
+            <span>
+            </span>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/filhote-de-pitbull-2-1280x720.jpg" alt="">
+                <h1 class="titulo">Imagem 4</h1>
+            </div>
+
+            <div class="div-imagem">
+                <img class="Imagem" src="img/lulu.jpg" alt="">
+                <h1 class="titulo">Imagem 5</h1>
+            </div>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/images.jpeg" alt="">
+                <h1 class="titulo">Imagem 6</h1>
+            </div>
+            <span>
+            </span>
+            <span>
+            </span>
+            <div class="div-imagem">
+                <img class="Imagem"
+                    src="img/racas-de-cachorro-grande-confira-galeria-e-conheca-as-20-mais-populares.webp" alt="">
+                <h1 class="titulo">Imagem 7</h1>
+            </div>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/adi.png" alt="">
+                <h1 class="titulo">Imagem 8</h1>
+            </div>
+            <div class="div-imagem">
+                <img class="Imagem" src="img/eve.jpeg" alt="">
+                <h1 class="titulo">Imagem 9</h1>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="carrosel">
+        <h2 class="titulo__carrossel">F I L H O T E S</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/image 1.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/image 2.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/image 3.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/image 4.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/image 5.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/image 6.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/image 7.svg" alt=""></div>
+                <div class="swiper-slide"><img src="img/image 8.svg" alt=""></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+    <footer> 
+            
+                    <div class="barra-footer">
+                <img class="icone-rua" src="icones/icone-rua.png"> Rua Cuiaba, 123 - Centro - 000000-000 - Cascavel - PR
+            </div>
+            <div class="barra-footer-2">
+                <img class="icone-telefone" src="icones/icone-telefone.png"> (45) 0000-0000 - (45) 99999-9999
+                c="img/adi.png" alt="">
+            </div>
+
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 10,
+                slidesPerView: 3,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
+</body>
+
+</html>
